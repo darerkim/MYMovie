@@ -18,7 +18,7 @@ function FavoritePage() {
         if (response.data.success) {
           setFavorites(response.data.favorites);
         }else{
-          alert('영화 정보를 가져오는것에 실패했습니다.');
+          alert('영화 정보를 가져오는데 실패했습니다.');
         }
       }) 
   }
